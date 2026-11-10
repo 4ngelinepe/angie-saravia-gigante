@@ -33,80 +33,80 @@
   </script>
 </head>
 <body>
-  <div class="page">
+  <div class="sheet">
+    <span class="wedge wedge--tr" aria-hidden="true"></span>
+    <span class="wedge wedge--bl" aria-hidden="true"></span>
 
-    <!-- WHO -->
-    <header class="who">
-      <div class="who__top">
-        <span class="eyebrow" data-es="Fundadora · DesignOps">Founder · DesignOps</span>
+    <!-- cabecera de lámina -->
+    <header class="strip strip--top">
+      <span>Angie Saravia Gigante · 2026</span>
+      <span class="strip__mid" data-es="Ficha personal">Personal sheet</span>
+      <span class="strip__right">
         <span class="lang" role="group" aria-label="Language">
           <button type="button" data-lang="en" aria-pressed="true">EN</button>
           <button type="button" data-lang="es" aria-pressed="false">ES</button>
         </span>
-      </div>
-
-      <h1 class="name">angie saravia gigante</h1>
-
-      <p class="thesis" data-es="Diseño sistemas de identidad que una organización puede <strong>operar</strong>. Más de 20 años entre marcas, productos digitales y música.">
-        I design identity systems an organization can <strong>run</strong>. Over 20 years across brands, digital products and music.
-      </p>
-
-      <div class="who__foot">
-        <img class="portrait" src="assets/Angie-Saravia-gigante.webp" width="1344" height="1546" alt="Angie Saravia Gigante" />
-        <div class="who__meta">
-          <a class="btn" href="https://wa.me/51987550655?text=Hola%2C%20Angie" target="_blank" rel="noopener"><span data-es="Conversemos">Let’s talk</span> <span aria-hidden="true">→</span></a>
-          <span class="place" data-es="Lima, Perú">Lima, Peru</span>
-        </div>
-      </div>
+        <img class="iso" src="assets/isotipo.svg" alt="Alfabeto Visual" width="14" height="25" />
+      </span>
     </header>
 
-    <!-- LINKS -->
-    <nav class="links" aria-label="Projects">
-      <a class="link" href="https://alfabetovisual.com" target="_blank" rel="noopener">
-        <span class="link__n">01</span>
-        <span class="link__body">
-          <span class="link__title">alfabeto visual</span>
-          <span class="link__desc" data-es="Estudio de sistemas de identidad · Fundadora">Identity systems studio · Founder</span>
-        </span>
-        <span class="link__go" aria-hidden="true">↗</span>
-      </a>
-      <a class="link" href="https://cuantoestaeldolar.pe" target="_blank" rel="noopener">
-        <span class="link__n">02</span>
-        <span class="link__body">
-          <span class="link__title">cuántoestáeldólar</span>
-          <span class="link__desc" data-es="Bigclick · Cofundadora y dirección de diseño">Bigclick · Co-founder & design director</span>
-        </span>
-        <span class="link__go" aria-hidden="true">↗</span>
-      </a>
-      <a class="link" href="https://cedfx.com" target="_blank" rel="noopener">
-        <span class="link__n">03</span>
-        <span class="link__body">
-          <span class="link__title">cedfx</span>
-          <span class="link__desc" data-es="Bigclick · Dirección de diseño">Bigclick · Design direction</span>
-        </span>
-        <span class="link__go" aria-hidden="true">↗</span>
-      </a>
-      <a class="link" href="https://ngmusique.com" target="_blank" rel="noopener">
-        <span class="link__n">04</span>
-        <span class="link__body">
-          <span class="link__title">ng</span>
-          <span class="link__desc" data-es="Proyecto musical · Artista">Music project · Artist</span>
-        </span>
-        <span class="link__go" aria-hidden="true">↗</span>
-      </a>
-      <a class="link" href="https://pe.linkedin.com/in/angelinepe" target="_blank" rel="noopener">
-        <span class="link__n">05</span>
-        <span class="link__body">
-          <span class="link__title">linkedin</span>
-          <span class="link__desc" data-es="Lo que pienso sobre diseño y sistemas">What I think about design and systems</span>
-        </span>
-        <span class="link__go" aria-hidden="true">↗</span>
-      </a>
-    </nav>
+    <main class="body">
+      <section class="intro">
+        <p class="eyebrow" data-es="00 · Fundadora · DesignOps">00 · Founder · DesignOps</p>
 
+        <div class="intro__grid">
+          <div class="intro__text">
+            <h1 class="title">Angie Saravia Gigante</h1>
+            <p class="lead" data-es="Diseño sistemas de identidad que una organización puede <strong>operar</strong>. Más de 20 años entre marcas, productos digitales y música.">
+              I design identity systems an organization can <strong>run</strong>. Over 20 years across brands, digital products and music.
+            </p>
+            <a class="btn" href="https://wa.me/51987550655?text=Hola%2C%20Angie" target="_blank" rel="noopener"><span data-es="Conversemos">Let’s talk</span> <span aria-hidden="true">→</span></a>
+          </div>
+          <figure class="fig">
+            <img src="assets/Angie-Saravia-gigante.webp" width="1344" height="1546" alt="Angie Saravia Gigante" />
+            <figcaption><span>Fig. 01</span><span>Lima</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- trampolín: tablero de módulos -->
+      <section class="board" aria-labelledby="board-title">
+        <p id="board-title" class="board__label" data-es="01 · Dónde opera el sistema">01 · Where the system runs</p>
+        <nav class="modules" aria-label="Projects">
+          <a class="module" href="https://alfabetovisual.com" target="_blank" rel="noopener">
+            <svg viewBox="0 0 134 134" aria-hidden="true"><path class="hex" d="M66.88 1.33L10.11 34.10V99.62L66.88 132.39L123.64 99.62V34.10L66.88 1.33Z"/><path class="r" d="M54.15 81.56L41.42 88.91V30.12L54.15 22.77V81.56Z"/><path class="l" d="M28.69 81.56L41.42 88.91V30.12L28.69 22.77V81.56Z"/><path class="t" d="M41.42 15.43L54.15 22.78L41.42 30.12L28.69 22.78L41.42 15.43Z"/><path class="r" d="M66.88 88.91L54.15 96.25V52.17L66.88 44.82V88.91Z"/><path class="l" d="M41.42 88.91L54.15 96.25V52.17L41.42 44.82V88.91Z"/><path class="t" d="M54.15 37.47L66.88 44.82L54.15 52.17L41.42 44.82L54.15 37.47Z"/><path class="r" d="M92.34 103.60L79.61 110.95V66.86L92.34 59.51V103.60Z"/><path class="l" d="M66.88 103.60L79.61 110.95V66.86L66.88 59.51V103.60Z"/><path class="t" d="M79.61 52.17L92.34 59.51L79.61 66.86L66.88 59.51L79.61 52.17Z"/><path class="r" d="M92.34 74.21L79.61 81.56V66.86L92.34 59.51V74.21Z"/><path class="l" d="M41.42 59.51L79.61 81.56V66.86L41.42 44.82V59.51Z"/><path class="t" d="M54.15 37.47L92.34 59.51L79.61 66.86L41.42 44.82L54.15 37.47Z"/><path class="r" d="M105.07 66.86L92.34 74.21V59.51L105.07 52.17V66.86Z"/><path class="l" d="M28.69 37.47L92.34 74.21V59.51L28.69 22.77V37.47Z"/><path class="t" d="M41.42 15.43L105.07 52.17L92.34 59.52L28.69 22.78L41.42 15.43Z"/><path class="r" d="M105.07 110.95L92.34 118.30V59.51L105.07 52.17V110.95Z"/><path class="l" d="M79.61 110.95L92.34 118.30V59.51L79.61 52.17V110.95Z"/><path class="t" d="M92.34 44.82L105.07 52.17L92.34 59.51L79.61 52.17L92.34 44.82Z"/></svg>
+            <span class="module__name">Alfabeto Visual</span>
+            <span class="module__role" data-es="Fundadora">Founder</span>
+          </a>
+          <a class="module" href="https://cuantoestaeldolar.pe" target="_blank" rel="noopener">
+            <svg viewBox="0 0 134 134" aria-hidden="true"><path class="hex" d="M66.88 1.33L10.11 34.10V99.62L66.88 132.39L123.64 99.62V34.10L66.88 1.33Z"/><path class="r" d="M108.00 110.39L94.29 118.30V102.47L108.00 94.56V110.39Z"/><path class="l" d="M39.46 86.65L94.29 118.30V102.47L39.46 70.82V86.65Z"/><path class="t" d="M53.17 62.91L108.00 94.56L94.29 102.47L39.46 70.82L53.17 62.91Z"/><path class="r" d="M66.88 86.65L53.17 94.56V31.25L66.88 23.34V86.65Z"/><path class="l" d="M39.46 86.65L53.17 94.56V31.25L39.46 23.34V86.65Z"/><path class="t" d="M53.17 15.43L66.88 23.34L53.17 31.26L39.46 23.34L53.17 15.43Z"/><path class="r" d="M94.29 86.65L39.46 118.30V102.47L94.29 70.82V86.65Z"/><path class="l" d="M25.75 110.39L39.46 118.30V102.47L25.75 94.56V110.39Z"/><path class="t" d="M80.59 62.91L94.29 70.82L39.46 102.47L25.75 94.56L80.59 62.91Z"/><path class="r" d="M94.29 86.65L80.59 94.56V31.25L94.29 23.34V86.65Z"/><path class="l" d="M66.88 86.65L80.59 94.56V31.25L66.88 23.34V86.65Z"/><path class="t" d="M80.59 15.43L94.30 23.34L80.59 31.26L66.88 23.34L80.59 15.43Z"/><path class="r" d="M108.00 62.91L94.29 70.82V54.99L108.00 47.08V62.91Z"/><path class="l" d="M39.46 39.17L94.29 70.82V54.99L39.46 23.34V39.17Z"/><path class="t" d="M53.17 15.43L108.00 47.08L94.29 54.99L39.46 23.34L53.17 15.43Z"/><path class="r" d="M108.00 110.39L94.29 118.30V54.99L108.00 47.08V110.39Z"/><path class="l" d="M80.59 110.39L94.29 118.30V54.99L80.59 47.08V110.39Z"/><path class="t" d="M94.29 39.17L108.00 47.08L94.29 54.99L80.59 47.08L94.29 39.17Z"/><path class="r" d="M94.29 39.17L39.46 70.82V54.99L94.29 23.34V39.17Z"/><path class="l" d="M25.75 62.91L39.46 70.82V54.99L25.75 47.08V62.91Z"/><path class="t" d="M80.59 15.43L94.29 23.34L39.46 54.99L25.75 47.08L80.59 15.43Z"/><path class="r" d="M53.17 110.39L39.46 118.30V54.99L53.17 47.08V110.39Z"/><path class="l" d="M25.75 110.39L39.46 118.30V54.99L25.75 47.08V110.39Z"/><path class="t" d="M39.46 39.17L53.17 47.08L39.46 54.99L25.75 47.08L39.46 39.17Z"/></svg>
+            <span class="module__name">cuántoestáeldólar</span>
+            <span class="module__role" data-es="Cofundadora · Diseño">Co-founder · Design</span>
+          </a>
+          <a class="module" href="https://cedfx.com" target="_blank" rel="noopener">
+            <svg viewBox="0 0 134 134" aria-hidden="true"><path class="hex" d="M66.88 1.33L10.11 34.10V99.62L66.88 132.39L123.64 99.62V34.10L66.88 1.33Z"/><path class="r" d="M58.78 90.24L42.57 99.59V62.18L58.78 52.83V90.24Z"/><path class="l" d="M26.37 90.24L42.57 99.59V62.18L26.37 52.83V90.24Z"/><path class="t" d="M42.57 43.48L58.78 52.83L42.57 62.19L26.37 52.83L42.57 43.48Z"/><path class="r" d="M91.18 108.95L74.98 118.30V99.59L91.18 90.24V108.95Z"/><path class="l" d="M26.37 90.24L74.98 118.30V99.59L26.37 71.54V90.24Z"/><path class="t" d="M42.57 62.19L91.18 90.24L74.98 99.59L26.37 71.54L42.57 62.19Z"/><path class="r" d="M107.38 62.19L91.18 71.54V52.83L107.38 43.48V62.19Z"/><path class="l" d="M42.57 43.48L91.18 71.54V52.83L42.57 24.78V43.48Z"/><path class="t" d="M58.78 15.42L107.38 43.48L91.18 52.83L42.57 24.78L58.78 15.42Z"/><path class="r" d="M107.38 80.89L91.18 90.24V52.83L107.38 43.48V80.89Z"/><path class="l" d="M74.98 80.89L91.18 90.24V52.83L74.98 43.48V80.89Z"/><path class="t" d="M91.18 34.13L107.38 43.48L91.18 52.83L74.98 43.48L91.18 34.13Z"/></svg>
+            <span class="module__name">cedfx</span>
+            <span class="module__role" data-es="Bigclick · Diseño">Bigclick · Design</span>
+          </a>
+          <a class="module" href="https://ngmusique.com" target="_blank" rel="noopener">
+            <svg viewBox="0 0 134 134" aria-hidden="true"><path class="hex" d="M66.88 1.33L10.11 34.10V99.62L66.88 132.39L123.64 99.62V34.10L66.88 1.33Z"/><path class="r" d="M101.15 110.39L87.44 118.30V102.47L101.15 94.56V110.39Z"/><path class="l" d="M32.60 86.65L87.44 118.30V102.47L32.60 70.82V86.65Z"/><path class="t" d="M46.31 62.91L101.15 94.56L87.44 102.47L32.60 70.82L46.31 62.91Z"/><path class="r" d="M60.02 86.65L46.31 94.56V31.25L60.02 23.34V86.65Z"/><path class="l" d="M32.60 86.65L46.31 94.56V31.25L32.60 23.34V86.65Z"/><path class="t" d="M46.31 15.43L60.02 23.34L46.31 31.26L32.60 23.34L46.31 15.43Z"/><path class="r" d="M101.15 62.91L87.44 70.82V54.99L101.15 47.08V62.91Z"/><path class="l" d="M32.60 39.17L87.44 70.82V54.99L32.60 23.34V39.17Z"/><path class="t" d="M46.31 15.43L101.15 47.08L87.44 54.99L32.60 23.34L46.31 15.43Z"/><path class="r" d="M101.15 110.39L87.44 118.30V54.99L101.15 47.08V110.39Z"/><path class="l" d="M73.73 110.39L87.44 118.30V54.99L73.73 47.08V110.39Z"/><path class="t" d="M87.44 39.17L101.15 47.08L87.44 54.99L73.73 47.08L87.44 39.17Z"/></svg>
+            <span class="module__name">NG</span>
+            <span class="module__role" data-es="Música">Music</span>
+          </a>
+          <a class="module" href="https://pe.linkedin.com/in/angelinepe" target="_blank" rel="noopener">
+            <svg viewBox="0 0 134 134" aria-hidden="true"><path class="hex" d="M66.88 1.33L10.11 34.10V99.62L66.88 132.39L123.64 99.62V34.10L66.88 1.33Z"/><path class="r" d="M111.43 92.58L96.58 101.15V84.01L111.43 75.43V92.58Z"/><path class="l" d="M22.32 58.29L96.58 101.15V84.01L22.32 41.14V58.29Z"/><path class="t" d="M37.17 32.57L111.43 75.43L96.58 84.01L22.32 41.14L37.17 32.57Z"/><path class="r" d="M111.43 58.29L37.17 101.15V84.01L111.43 41.14V58.29Z"/><path class="l" d="M22.32 92.58L37.17 101.15V84.01L22.32 75.43V92.58Z"/><path class="t" d="M96.58 32.57L111.43 41.14L37.17 84.01L22.32 75.43L96.58 32.57Z"/><path class="r" d="M81.73 109.72L66.88 118.30V32.57L81.73 24.00V109.72Z"/><path class="l" d="M52.03 109.72L66.88 118.30V32.57L52.03 24.00V109.72Z"/><path class="t" d="M66.88 15.42L81.73 24.00L66.88 32.57L52.03 24.00L66.88 15.42Z"/></svg>
+            <span class="module__name">LinkedIn</span>
+            <span class="module__role" data-es="Criterio publicado">Published thinking</span>
+          </a>
+        </nav>
+      </section>
+    </main>
+
+    <footer class="strip strip--bottom">
+      <span>01</span>
+      <span data-es="Sistemas de identidad escalables">Scalable identity systems</span>
+    </footer>
   </div>
-
-  <footer class="footer">© <span id="year">2026</span> Angie Saravia Gigante</footer>
 
   <script>
     (function () {
@@ -127,7 +127,6 @@
       try { saved = localStorage.getItem('lang'); } catch (e) {}
       var initial = saved || ((navigator.language || '').toLowerCase().indexOf('es') === 0 ? 'es' : 'en');
       if (initial === 'es') setLang('es');
-      document.getElementById('year').textContent = new Date().getFullYear();
     })();
   </script>
 </body>
