@@ -325,3 +325,23 @@ background: linear-gradient(180deg, rgba(19,20,22,1) 2%, rgba(19,20,22,0.6783088
 }
 .lang button[aria-pressed="true"] { opacity: 1; text-decoration: underline; text-underline-offset: 4px; }
 @media (max-width: 840px) { .lang { justify-content: center; } }
+
+/* ---- Foto en gris; se enciende al pasar por "Let's talk" ---- */
+@media (hover: hover) {
+  .author-portrait > img {
+    filter: grayscale(1) contrast(1.05);
+    transition: filter .6s ease;
+  }
+  .hero-container:has(.contact-container:hover) .author-portrait > img,
+  .author-portrait:hover > img {
+    filter: grayscale(0) contrast(1);
+  }
+  .contact-container > .title {
+    transition: color .4s ease;
+  }
+  .contact-container:hover > .title {
+    color: var(--color-primary);
+  }
+  .icon-button svg path { transition: fill .3s ease; }
+  .icon-button:hover svg path { fill: var(--color-primary); }
+}
